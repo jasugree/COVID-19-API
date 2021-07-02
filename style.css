@@ -1,0 +1,156 @@
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Orbitron", sans-serif;
+	font-weight: bold;
+}
+h2 {
+	color: #181f44;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.25rem;
+}
+.nation {
+	font-weight: 900;
+}
+.national {
+	margin-bottom: 2rem;
+}
+body {
+	margin: 0;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.dashboard {
+	position: relative;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 100px;
+}
+.title {
+	position: relative;
+	display: flex;
+	color: white;
+	padding-top: 100px;
+}
+
+.row {
+	background: #181f4490;
+	height: auto;
+	border-radius: 3rem 0rem;
+	width: 2000px;
+	padding: 2rem;
+	border: solid #a3cdfd 2px;
+	box-shadow: 0 0 20px #a3cdfd;
+}
+.world-wide,
+.nation-wide {
+	background: white;
+	border-radius: 0.5rem;
+}
+
+.stat {
+	display: flex;
+	align-items: center;
+	border-bottom: solid 2px #181f44;
+	margin-bottom: 1rem;
+	text-align: left;
+}
+.date {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #181f4415;
+	margin: auto -1rem -1rem -1rem;
+	border: none;
+	padding: 1rem;
+	border-radius: 0px 0px 0.5rem 0.5rem;
+	margin-top: 2rem;
+	font-family: "Orbitron", sans-serif;
+	font-weight: bold;
+	color: #181f44;
+}
+
+.stat-title {
+	background: #181f44;
+	color: white;
+	padding: 0.5rem 2rem;
+	width: 250px;
+	transform: skew(-20deg);
+	margin-left: 0.46rem;
+}
+.stat-title-text {
+	transform: skew(20deg) !important;
+	font-family: "Orbitron", sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05rem;
+	text-align: left;
+}
+.stat-value,
+.national-stat-value {
+	padding-left: 2rem;
+	font-family: "Orbitron", sans-serif;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+}
+
+.map {
+	max-width: 100%;
+	padding: 2rem;
+	color: #181f44;
+}
+
+form {
+	display: flex;
+}
+#search-nation {
+	flex: 1;
+	margin-right: 1rem;
+	border: solid 2px #181f44;
+	border-radius: 100px;
+	padding: 0.5rem 1rem;
+	font-family: "Orbitron", sans-serif;
+	color: #21252950;
+}
+
+button {
+	border-radius: 1000px;
+	border: none;
+	background: #181f44;
+	width: 42px;
+	height: 42px;
+	transition: all 0.2s ease-in;
+}
+button:hover {
+	background: #2f3b6e;
+	transition: all 0.2s ease-in;
+}
+svg {
+	fill: #f8f9fa;
+}
+
+.world-wide {
+	margin-bottom: 3rem;
+}
