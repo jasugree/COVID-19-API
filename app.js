@@ -6,7 +6,6 @@ fetch(`${baseURL}`)
 
     function covidData(data){
         for(j = 0; j < data.Countries.length; j++ ){
-        console.log(data.Countries[j].Country)
         }
         let stats = document.querySelectorAll('.stat-value');
 
@@ -47,8 +46,8 @@ fetch(`${baseURL}`)
 const searchForm = document.querySelector('form');
 let searchNation = document.querySelector('.search-nation');
 
-searchForm.addEventListener('submit', displaySearchResults);
-    
+searchForm.addEventListener('submit', displaySearchResults); 
+
     function displaySearchResults(e) {
         e.preventDefault();
         
@@ -61,6 +60,7 @@ searchForm.addEventListener('submit', displaySearchResults);
         function runSearch(data){
             // searchNation.value ='Mexico'
             if( 
+
                 searchNation.value == data.Countries[0].Country ||
                 searchNation.value == data.Countries[1].Country ||
                 searchNation.value == data.Countries[2].Country ||
@@ -213,7 +213,44 @@ searchForm.addEventListener('submit', displaySearchResults);
                 searchNation.value == data.Countries[151].Country ||
                 searchNation.value == data.Countries[152].Country ||
                 searchNation.value == data.Countries[153].Country ||
-                searchNation.value == data.Countries[154].Country 
+                searchNation.value == data.Countries[155].Country ||
+                searchNation.value == data.Countries[156].Country ||
+                searchNation.value == data.Countries[156].Country ||
+                searchNation.value == data.Countries[157].Country ||
+                searchNation.value == data.Countries[158].Country ||
+                searchNation.value == data.Countries[159].Country ||
+                searchNation.value == data.Countries[160].Country ||
+                searchNation.value == data.Countries[161].Country ||
+                searchNation.value == data.Countries[162].Country ||
+                searchNation.value == data.Countries[163].Country ||
+                searchNation.value == data.Countries[164].Country ||
+                searchNation.value == data.Countries[165].Country ||
+                searchNation.value == data.Countries[166].Country ||
+                searchNation.value == data.Countries[167].Country ||
+                searchNation.value == data.Countries[168].Country ||
+                searchNation.value == data.Countries[169].Country ||
+                searchNation.value == data.Countries[170].Country ||
+                searchNation.value == data.Countries[171].Country ||
+                searchNation.value == data.Countries[172].Country ||
+                searchNation.value == data.Countries[173].Country ||
+                searchNation.value == data.Countries[174].Country ||
+                searchNation.value == data.Countries[175].Country ||
+                searchNation.value == data.Countries[176].Country ||
+                searchNation.value == data.Countries[177].Country ||
+                searchNation.value == data.Countries[178].Country ||
+                searchNation.value == data.Countries[179].Country ||
+                searchNation.value == data.Countries[180].Country ||
+                searchNation.value == data.Countries[181].Country ||
+                searchNation.value == data.Countries[182].Country ||
+                searchNation.value == data.Countries[183].Country ||
+                searchNation.value == data.Countries[184].Country ||
+                searchNation.value == data.Countries[185].Country ||
+                searchNation.value == data.Countries[186].Country ||
+                searchNation.value == data.Countries[187].Country ||
+                searchNation.value == data.Countries[188].Country ||
+                searchNation.value == data.Countries[189].Country ||
+                searchNation.value == data.Countries[190].Country ||
+                searchNation.value == data.Countries[191].Country
                 ){
                 for(i = 0; i < data.Countries.length; i++){
                     if( searchNation.value == data.Countries[i].Country){
@@ -274,7 +311,7 @@ searchForm.addEventListener('submit', displaySearchResults);
                     }
                 }
             } else{
-                alert('Please enter a valid country name.');
+                 alert('Please enter a valid country name.');
             }
             
         }

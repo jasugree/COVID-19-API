@@ -60,7 +60,7 @@ p {
 	background: #181f4490;
 	height: auto;
 	border-radius: 3rem 0rem;
-	width: 2000px;
+	max-width: 2000px;
 	padding: 2rem;
 	border: solid #a3cdfd 2px;
 	box-shadow: 0 0 20px #a3cdfd;
@@ -153,4 +153,54 @@ svg {
 
 .world-wide {
 	margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+	.row {
+		max-width: 90%;
+		padding: 0.5rem;
+		border-radius: 1rem 0rem;
+		margin: 0 4px;
+	}
+	.title {
+		width: 91%;
+		padding: 0px;
+		margin: 35px 0px;
+	}
+	.col {
+		padding: 0px;
+	}
+	.dashboard {
+		position: relative;
+		text-align: left;
+		display: block;
+		align-items: center;
+		justify-content: center;
+		padding: 0px;
+		padding-bottom: 100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	form {
+		display: block;
+	}
+	.search-nation {
+		width: 76%;
+	}
+	p {
+		font-size: 0.65rem;
+	}
+	.stat-title {
+		width: auto;
+		margin-left: 6px;
+	}
+	.world-wide,
+	.nation-wide {
+		padding: 0.5rem !important;
+	}
+	h1 {
+		margin: auto;
+		text-align: center;
+		padding: 0px;
+	}
 }
