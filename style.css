@@ -163,9 +163,7 @@ svg {
 		margin: 0 4px;
 	}
 	.title {
-		width: 91%;
-		padding: 0px;
-		margin: 35px 0px;
+	padding-top: 50px;
 	}
 	.col {
 		padding: 0px;
@@ -200,6 +198,7 @@ svg {
 	}
 	h1 {
 		margin: auto;
+		margin-bottom: 30px;;
 		text-align: center;
 		padding: 0px;
 	}
